@@ -1,0 +1,37 @@
+body{
+    font-family:"permanent marker,cursive";
+    background-color:white;
+    font-size: large;
+}
+
+header h1{
+    color: crimson;
+    font-style: italic;
+
+
+}
+.about-us h2{
+    color: #dc143c;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+.about-us h4{
+    color: crimson;
+    font-style: italic;
+    font-weight: 100;
+}
+.about-us p{
+    font-style: oblique;
+    color:black;
+    }
+    .about-us i{
+        color: crimson;
+    }
+
+footer{
+font-style: oblique;}
+
+.about-us i{
+font-size: x-large;
+}
