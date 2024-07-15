@@ -1,37 +1,103 @@
-body{
-    font-family:"permanent marker,cursive";
-    background-color:white;
-    font-size: large;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header h1{
+/* Navbar */
+.navbar-brand {
+    font-family: "Permanent Marker", cursive;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(222, 0, 74),
+            #f867f8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link:hover {
     color: crimson;
-    font-style: italic;
-
-
 }
-.about-us h2{
+
+.button {
+    color: crimson;
+    border: 2px solid crimson;
+    background: transparent;
+    width: 100%;
+    transition: 1s;
+}
+
+.button:hover {
+    color: white;
+    background-color: crimson;
+}
+
+.modal-title {
+    font-family: signika;
+    font-weight: bold;
+    color: crimson;
+}
+
+/* About Section */
+h1 {
+    color: crimson;
+    font-family: signika;
+    font-weight: bold;
+}
+
+.about-us h2 {
     color: #dc143c;
-    font-style: italic;
-    font-weight: 100;
-    
+    font-family: signika;
+    font-weight: bold;
+
 }
-.about-us h4{
+
+.about-us h4 {
     color: crimson;
-    font-style: italic;
-    font-weight: 100;
+    font-family: signika;
+    font-weight: bold;
 }
-.about-us p{
-    font-style: oblique;
-    color:black;
-    }
-    .about-us i{
-        color: crimson;
-    }
 
-footer{
-font-style: oblique;}
+.about-us p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.about-us i{
-font-size: x-large;
+.about-us i {
+    font-size: x-large;
+}
+
+.overlay{
+    background-image: url(assets/overlay.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlayheading{
+    padding-top: 35px;
+    font-size: 45px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+}
+
+.overlaytext{
+    font-size: 35px;
+    font-family: signika;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer */
+h5, strong{
+    color: crimson;
 }
